@@ -1,0 +1,103 @@
+[
+  {
+    "Expertise": [
+      {
+        "name": "HTML",
+        "image": "https://i.ibb.co/rQkz0PC/icons8-html-5-50.png"
+      },
+      {
+        "name": "CSS",
+        "image": "https://i.ibb.co/jHhdGbd/icons8-css3-50.png"
+      },
+
+      {
+        "name": "JavaScript",
+        "image": "https://i.ibb.co/d4Z1rCy/icons8-javascript-50.png"
+      },
+
+      {
+        "name": "Bootstrap",
+        "image": "https://i.ibb.co/42ZZPZg/icons8-bootstrap-50.png"
+      },
+      {
+        "name": "TailwindCSS",
+        "image": "https://i.ibb.co/D7WmCN0/icons8-css-filetype-50.png"
+      },
+      {
+        "name": "React",
+        "image": "https://i.ibb.co/NmL8JwT/icons8-react-50.png"
+      }
+    ]
+  },
+  {
+    "Comfortable": [
+      {
+        "name": "Sass",
+        "image": "https://i.ibb.co/GMbvqx1/icons8-sass-50.png"
+      },
+      {
+        "name": "Redux",
+        "image": "https://i.ibb.co/pRwNShv/icons8-redux-50.png"
+      },
+      {
+        "name": "Firebase Authentication",
+        "image": "https://i.ibb.co/XZqf0rZ/icons8-firebase-48.png"
+      },
+
+      {
+        "name": "Material UI",
+        "image": "https://i.ibb.co/D4CfCN2/icons8-material-ui-48.png"
+      }
+    ]
+  },
+  {
+    "Fimilier": [
+      {
+        "name": "TypeScript",
+        "image": "https://i.ibb.co/zPpQXSx/icons8-typescript-50.png"
+      },
+      {
+        "name": "NodeJs",
+        "image": "https://i.ibb.co/sw1Q15B/icons8-nodejs-50.png"
+      },
+      {
+        "name": "Mongodb",
+        "image": "https://i.ibb.co/55Kn2jh/icons8-mongodb-48.png"
+      },
+
+      {
+        "name": "NextJS",
+        "image": "https://i.ibb.co/bKsMqHQ/icons8-next-js-48.png"
+      }
+    ]
+  },
+  {
+    "Tools": [
+      {
+        "name": "Vs Code",
+        "image": "https://i.ibb.co/T2JC4yH/icons8-visual-studio-48.png"
+      },
+      {
+        "name": "GitHub",
+        "image": "https://i.ibb.co/KWqJYPL/icons8-github-30.png"
+      },
+      {
+        "name": "Netlify",
+        "image": "https://i.ibb.co/MPHs9Cg/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-sta.png"
+      },
+
+      {
+        "name": "Heroku",
+        "image": "https://i.ibb.co/7Q6cfRG/icons8-heroku-48.png"
+      },
+      {
+        "name": " Trello",
+        "image": "https://i.ibb.co/Dp17pkw/icons8-trello-48.png"
+      },
+      {
+        "name": "Payment gateway(stripe)",
+        "image": "https://i.ibb.co/NpfGYWX/icons8-stripe-50.png"
+      }
+    ]
+  }
+]
