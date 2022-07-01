@@ -9,6 +9,10 @@
         "name": "CSS",
         "image": "https://i.ibb.co/jHhdGbd/icons8-css3-50.png"
       },
+      {
+        "name": "React",
+        "image": "https://i.ibb.co/NmL8JwT/icons8-react-50.png"
+      },
 
       {
         "name": "JavaScript",
@@ -22,10 +26,6 @@
       {
         "name": "TailwindCSS",
         "image": "https://i.ibb.co/D7WmCN0/icons8-css-filetype-50.png"
-      },
-      {
-        "name": "React",
-        "image": "https://i.ibb.co/NmL8JwT/icons8-react-50.png"
       }
     ]
   },

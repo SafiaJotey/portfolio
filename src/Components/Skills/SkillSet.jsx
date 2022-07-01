@@ -8,8 +8,8 @@ const SkillSet = ({ d }) => {
   }
 
   return (
-    <div className="container">
-      <h3>{header}</h3>
+    <div className="container text-center">
+      <h4 className=" ">{header}</h4>
 
       <div class="row d-flex justify-content-center align-items-center">
         {d[header].map((skill) => (

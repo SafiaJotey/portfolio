@@ -4,6 +4,7 @@ import Banner from './Components/Banner/Banner';
 import Header from './Components/Header/Header';
 import Skills from './Components/Skills/Skills';
 
+import './custom.scss';
 function App() {
   return (
     <div className="App">

@@ -11,7 +11,7 @@ const Skills = () => {
 
   return (
     <div className="container">
-      <h2>Skills</h2>
+      <h2 className="m-5 text-center font-bold">Skills</h2>
       {data.map((d) => (
         <SkillSet d={d}></SkillSet>
       ))}
