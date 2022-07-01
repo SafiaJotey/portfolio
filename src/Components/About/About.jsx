@@ -1,4 +1,5 @@
 import myPhoto from '../../assets/Images/SafiaJotey.jpg';
+import Button from '../Button/Button';
 
 const About = () => {
   return (
@@ -25,6 +26,16 @@ const About = () => {
             odio porro laborum est possimus facilis amet minima totam, doloribus
             unde.
           </p>
+          <Button>
+            <a
+              className="text-decoration-none text-light"
+              href="https://drive.google.com/file/d/1UZjo_WAWMpG-hBn8tMhrHQFe1dgOCW08/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download Resume
+            </a>
+          </Button>
         </div>
       </div>
     </div>

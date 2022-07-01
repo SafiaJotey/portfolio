@@ -23,14 +23,14 @@ const Banner = () => {
     <div className="bg-dark overflow-hidden position-relative">
       <Animation></Animation>
       <div className="position-absolute bottom-50 px-2">
-        <div className="d-flex flex-column  justify-content-center align-items-center">
+        <div className="d-flex flex-colum flex-md-column   justify-content-center align-items-center">
           <a
             href="http://www.linkedin.com/in/safiajotey"
             className="text-decoration-none text-light m-2"
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedinIn className="text-light fs-6 m-2" />
+            <FaLinkedinIn className="text-secondary  fs-6 m-2" />
           </a>
           <a
             href="https://github.com/SafiaJotey"
@@ -38,7 +38,7 @@ const Banner = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <AiFillGithub className="text-light fs-6 m-2" />
+            <AiFillGithub className="text-secondary  fs-6 m-2" />
           </a>
           <a
             href="https://www.facebook.com/safiajotey"
@@ -47,7 +47,7 @@ const Banner = () => {
             rel="noreferrer"
           >
             {' '}
-            <AiFillFacebook className="text-light fs-6 m-2" />
+            <AiFillFacebook className="text-secondary  fs-6 m-2" />
           </a>
         </div>
       </div>
@@ -60,7 +60,7 @@ const Banner = () => {
             </h1>
             <h3 className="text-light fs-4 my-4  d-flex justify-content-start">
               I am a &nbsp;
-              <span className="text-secondary">
+              <span className="text-secondary ">
                 <Typewriter
                   options={{
                     strings: [
@@ -94,7 +94,7 @@ const Banner = () => {
             <Lottie
               options={defaultOptions}
               isClickToPauseDisabled={true}
-              width={isDesktop ? 700 : isTablet ? 400 : 400}
+              width={isDesktop ? 700 : isTablet ? 500 : 500}
             />
           </div>
         </div>
