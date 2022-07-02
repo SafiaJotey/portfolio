@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-dark">
+    <Navbar expand="lg" className="bg-dark p-4">
       <Container>
         <Navbar.Brand href="#home" className="text-light fw-bold">
           SAFIA AHMED

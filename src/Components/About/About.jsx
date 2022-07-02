@@ -1,30 +1,41 @@
 import myPhoto from '../../assets/Images/SafiaJotey.jpg';
-import Button from '../Button/Button';
+import Button from '../MiniComponents/Button/Button';
 
 const About = () => {
   return (
-    <div className="container-md">
+    <div className="container-md my-5">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-12 col-md-5 p-5 ">
-          <img className="img-fluid" src={myPhoto} alt="" />
+          <img
+            className="img-fluid border border-1 rounded-3  border-secondary"
+            src={myPhoto}
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-7 pe-none p-5">
           {' '}
+          <div className="d-flex flex-column justify-content-center align-items-center my-3">
+            {' '}
+            <h2 className="text-primary fw-bold ">About Me</h2>
+            <p className="text-gray">A passionate Web Developer</p>
+          </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-            fuga sequi dolorum vitae molestias odit. Iure accusantium inventore
-            quibusdam in.
+            Hello, I am{' '}
+            <span className="fs-5 text-primary fst-italic">Safia Ahmed</span>. I
+            am a Web Developer. I am from Dhaka, Bangladesh.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            amet, eligendi iste reiciendis explicabo consectetur nisi dolorum
-            quod. Quis dignissimos, numquam iusto vero eaque distinctio nam
-            voluptatibus repellendus itaque perferendis!
+            I have completed BSc in the department of Computer Science and
+            Engineering at Daffodil international university. I love to create
+            new things and learn every day.I am passionate about web developing.
+            I have knowledge of technologies and done some projects using those
+            technologies.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-            odio porro laborum est possimus facilis amet minima totam, doloribus
-            unde.
+            I am looking for an opportunity To take a challenging role as a
+            developer in an atmosphere where I can learn new things , utilize my
+            skills, abilities and contribute my skills and specializations to
+            aid my community.
           </p>
           <Button>
             <a

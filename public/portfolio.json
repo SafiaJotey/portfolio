@@ -1,0 +1,56 @@
+[
+  {
+    "Personal Project (MERN)": [
+      {
+        "image": "https://i.ibb.co/PjC9jPJ/Holiday-Hype.png",
+        "livesite": "https://dream-travel-2022.web.app/"
+      },
+      {
+        "image": "https://i.ibb.co/2MdYkzf/ADDIDAS-2.png",
+        "livesite": "https://addidas-4827a.web.app/"
+      },
+
+      {
+        "image": " https://i.ibb.co/ws34v6X/oClock.png",
+        "livesite": "https://oclock-2021.web.app/"
+      }
+    ]
+  },
+  {
+    "Personal project(Design)": [
+      {
+        "image": "https://i.ibb.co/gdTQ4NP/Honda-Cbr.png",
+        "livesite": "https://honda-cbr2021-safia.netlify.app/"
+      },
+      {
+        "image": "https://i.ibb.co/XpsrjZ5/Medicare-1.png",
+        "livesite": "https://medicare2-9be9a.web.app/"
+      },
+      {
+        "image": "https://i.ibb.co/5xnVYMZ/Panda.png",
+        "livesite": "https://safiajotey.github.io/PANDA-A-Ecommerce-Website/"
+      },
+      {
+        "image": "https://i.ibb.co/j3QqMp8/Football.png",
+        "livesite": "https://safiajotey.github.io/Responsive--Football--Website/"
+      },
+      {
+        "image": "https://i.ibb.co/J3FG6m7/Nike-React.png",
+        "livesite": "https://safiajotey.github.io/Nike/"
+      },
+
+      {
+        "image": "  https://i.ibb.co/W5M5Bhk/Pizza-Zone.png",
+        "livesite": "https://safiajotey.github.io/PizzaZone/"
+      }
+    ]
+  },
+  {
+    "Group Project (MERN)": [
+      {
+        "image": "https://i.ibb.co/vZtB8QD/Digital-Village.png",
+        "livesite": "https://digital-village.herokuapp.com/"
+      }
+    ]
+  }
+]

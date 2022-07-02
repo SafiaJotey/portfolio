@@ -1,12 +1,14 @@
 import Typewriter from 'typewriter-effect';
 
-import { AiFillFacebook, AiFillGithub } from 'react-icons/ai';
+import { AiFillFacebook, AiFillGithub, AiFillPhone } from 'react-icons/ai';
+
 import { FaLinkedinIn } from 'react-icons/fa';
+import { HiDownload } from 'react-icons/hi';
 import Lottie from 'react-lottie';
 import animationData from '../../assets/lottiefiles/banner.json';
 import useMediaQuery from '../../hook/useMediaQuary';
 import Animation from '../Animation/Animation';
-import Button from '../Button/Button';
+import Button from '../MiniComponents/Button/Button';
 const Banner = () => {
   const isTablet = useMediaQuery('(min-width: 656px)');
   const isDesktop = useMediaQuery('(min-width: 900px)');
@@ -20,7 +22,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="bg-dark overflow-hidden position-relative">
+    <div className="bg-dark overflow-hidden position-relative pb-4">
       <Animation></Animation>
       <div className="position-absolute bottom-50 px-2">
         <div className="d-flex flex-colum flex-md-column   justify-content-center align-items-center">
@@ -54,7 +56,7 @@ const Banner = () => {
       <div className="container-md ">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-12 col-md-6 py-5">
-            <h3 className="fw-bold text-light fs-4">Hi There, </h3>
+            <h3 className="text-light fs-4">Hi There, </h3>
             <h1 className="fw-bolder text-light fs-1">
               I am <span className="text-light">Safia Ahmed</span>
             </h1>
@@ -83,10 +85,15 @@ const Banner = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <HiDownload className=" text-light me-1 fs-6"></HiDownload>
                   Download Resume
                 </a>
               </Button>
-              <Button>Contact me</Button>
+
+              <button className="border  border-1 border-secondary bg-transparent   py-2 shadow shadow-secondary shadow-intensity-lg rounded-1 px-3  mx-2 text-secondary">
+                <AiFillPhone className="text-secondary me-1 fs-6"></AiFillPhone>
+                Contact me
+              </button>
             </div>
           </div>
           <div class="col-12 col-md-5 pe-none ">

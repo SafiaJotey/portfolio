@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Headings from '../MiniComponents/Headings/Headings';
 import SkillSet from './SkillSet';
 
 const Skills = () => {
@@ -10,11 +11,13 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="container">
-      <h2 className="m-5 text-center font-bold">Skills</h2>
-      {data.map((d) => (
-        <SkillSet d={d}></SkillSet>
-      ))}
+    <div className="bg-white p-5">
+      <div className="container my-5 ">
+        <Headings>My Skills</Headings>
+        {data.map((d) => (
+          <SkillSet d={d}></SkillSet>
+        ))}
+      </div>
     </div>
   );
 };

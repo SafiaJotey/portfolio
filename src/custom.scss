@@ -14,7 +14,9 @@ $theme-colors: (
   'primary': #5f09f1,
   'dark': #382b47,
   'light': #fef6ff,
-  //   'warning': #FFB070,
+  'gray': #81838b,
+  'white': #ffffff,
+  'transparent': transparent //   'warning': #FFB070,,,,
 );
 
 @import '~bootstrap/scss/bootstrap';
