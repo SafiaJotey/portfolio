@@ -9,7 +9,7 @@ const SkillSet = ({ d }) => {
 
   return (
     <div className="container text-center text-md-start my-2 ">
-      <h6 className=" fw-bold text-secondary ">{header}</h6>
+      <h6 className=" fw-bold text-gray ">{header}</h6>
 
       <div class="row d-flex justify-content-center align-items-center">
         {d[header].map((skill) => (

@@ -29,27 +29,7 @@
       }
     ]
   },
-  {
-    "Comfortable": [
-      {
-        "name": "Sass",
-        "image": "https://i.ibb.co/HgzgHV2/icons8-sass-50.png"
-      },
-      {
-        "name": "Redux",
-        "image": "https://i.ibb.co/0cHTcpy/icons8-redux-50.png"
-      },
-      {
-        "name": "Firebase",
-        "image": "https://i.ibb.co/BcJgH3g/icons8-firebase-48.png"
-      },
 
-      {
-        "name": "MUI",
-        "image": "https://i.ibb.co/23wY1vc/icons8-material-ui-48.png"
-      }
-    ]
-  },
   {
     "Fimilier": [
       {
@@ -66,8 +46,21 @@
       },
 
       {
-        "name": "NextJS",
-        "image": "https://i.ibb.co/6Yjc1NJ/icons8-next-js-48.png"
+        "name": "Sass",
+        "image": "https://i.ibb.co/HgzgHV2/icons8-sass-50.png"
+      },
+      {
+        "name": "Redux",
+        "image": "https://i.ibb.co/0cHTcpy/icons8-redux-50.png"
+      },
+      {
+        "name": "Firebase",
+        "image": "https://i.ibb.co/BcJgH3g/icons8-firebase-48.png"
+      },
+
+      {
+        "name": "MUI",
+        "image": "https://i.ibb.co/23wY1vc/icons8-material-ui-48.png"
       }
     ]
   },

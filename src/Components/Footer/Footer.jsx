@@ -1,11 +1,11 @@
 import emailjs from '@emailjs/browser';
-import { Alert } from 'bootstrap';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { AiFillFacebook, AiFillGithub } from 'react-icons/ai';
 
 import { FaLinkedinIn } from 'react-icons/fa';
 const Footer = () => {
+  const [error, setError] = useState('');
   const form = useRef();
   const {
     register,
@@ -18,7 +18,7 @@ const Footer = () => {
 
     emailjs
       .sendForm(
-        'service_mq9g747',
+        'service_bafd4re',
         'template_8r7yvc8',
         form.current,
         'SoERtjLjt-mVRccNn'
@@ -28,10 +28,10 @@ const Footer = () => {
           console.log(result.text);
         },
         (error) => {
-          console.log(error.text);
+          setError(error.text);
         }
       );
-    Alert('Successfully!', 'Your message is sent successfully!', 'success');
+    // Alert('Successfully!', 'Your message is sent successfully!', 'success');
     reset();
   };
   return (
@@ -39,11 +39,9 @@ const Footer = () => {
       <div className="row container-md">
         <div className="col-md-6">
           <p className="text-light text-justify my-5">
-            I am Always ready to be a part of a creative ideas. Finding a great
+            I am Always ready to be a part of creative ideas. Finding a great
             opportunity to join a Creative Developer team where I can prove my
-            abilities with my passion by providing and contributing my
-            potential. Learning new things also reflect on my skills which helps
-            to bring the organization to a new level. Feel free to reach out me.
+            abilities with my passion.Feel free to reach out me.
           </p>
 
           <div className="d-flex  justify-content-center align-items-center">
@@ -77,7 +75,7 @@ const Footer = () => {
         <div className="col-md-6">
           <form className="w-100   ps-md-5" ref={form} onSubmit={sendEmail}>
             <input
-              className=" w-100  bg-gray-100 px-5 outline-none border-2 py-2 focus:border-primary  rounded my-1"
+              className=" w-100  bg-transparent px-5  border-2 border-primary py-2  rounded my-1"
               {...register('user_name', {
                 required: 'Name is Required',
               })}
@@ -89,7 +87,19 @@ const Footer = () => {
             )}
 
             <input
-              className=" w-100 mb-0 md:mb-5 lg:mb-0 outline-none border-2 bg-gray-100 focus:border-primary px-5 rounded py-2 my-1 "
+              className=" w-100  bg-transparent px-5  border-2 border-primary py-2  rounded my-1"
+              {...register('subject', {
+                required: 'subject is Required',
+              })}
+              name="subject"
+              placeholder="subject"
+            />
+            {errors.subject && (
+              <small className="text-danger">{errors.subject.message}</small>
+            )}
+
+            <input
+              className=" w-100  bg-transparent px-5  border-2 border-primary py-2  rounded my-2"
               type="email"
               {...register('user_email', {
                 required: 'Email is Required',
@@ -107,7 +117,7 @@ const Footer = () => {
 
             <div className="col-span-2">
               <textarea
-                className=" w-100 bg-gray-100 py-5 px-5 outline-none border-2 focus:border-primary my-2 "
+                className=" w-100  bg-transparent px-5  border-2 border-primary py-2  rounded my-1 "
                 {...register('message', {
                   required: 'Message is Required',
                   minLength: {
@@ -126,15 +136,18 @@ const Footer = () => {
               )}
             </div>
 
-            <input
-              className="formBtn  px-6 md:w-2/6   py-2 text-white mx-auto lg:ml-0 rounded-md f"
-              type="submit"
-              value="Send"
-            />
+            <div className="d-flex  justify-content-center align-items-center">
+              {' '}
+              <input
+                className="bg-primary py-2 border-0 roundrd px-5 text-light rounded-2 mx-2"
+                type="submit"
+                value="Send"
+              />
+            </div>
           </form>
         </div>
       </div>
-      <div className="d-flex  justify-content-center align-items-center text-gray">
+      <div className="d-flex  justify-content-center align-items-center text-gray mt-5 text-center">
         All rights are preserved | SAFIA AHMED @2022
       </div>
     </div>

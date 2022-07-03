@@ -6,7 +6,7 @@ const Project = ({ project }) => {
   return (
     <div className="col-md-3  ">
       <div className="image-wrap px-3">
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <a href={project.livesite} target="_blank" rel="noopener noreferrer">
           <img src={project.image} alt="webpage" />
         </a>
       </div>

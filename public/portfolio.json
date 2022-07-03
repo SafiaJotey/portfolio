@@ -1,6 +1,6 @@
 [
   {
-    "Personal Project (MERN)": [
+    "Personal Project (Development)": [
       {
         "image": "https://i.ibb.co/PjC9jPJ/Holiday-Hype.png",
         "livesite": "https://dream-travel-2022.web.app/"
@@ -13,6 +13,14 @@
       {
         "image": " https://i.ibb.co/ws34v6X/oClock.png",
         "livesite": "https://oclock-2021.web.app/"
+      },
+      {
+        "image": "   https://i.ibb.co/Czt23Zn/Safia-Ahmed.png",
+        "livesite": "https://safiaahmed.netlify.app/"
+      },
+      {
+        "image": "https://i.ibb.co/XpsrjZ5/Medicare-1.png",
+        "livesite": "https://medicare2-9be9a.web.app/"
       }
     ]
   },
@@ -22,10 +30,7 @@
         "image": "https://i.ibb.co/gdTQ4NP/Honda-Cbr.png",
         "livesite": "https://honda-cbr2021-safia.netlify.app/"
       },
-      {
-        "image": "https://i.ibb.co/XpsrjZ5/Medicare-1.png",
-        "livesite": "https://medicare2-9be9a.web.app/"
-      },
+
       {
         "image": "https://i.ibb.co/5xnVYMZ/Panda.png",
         "livesite": "https://safiajotey.github.io/PANDA-A-Ecommerce-Website/"
