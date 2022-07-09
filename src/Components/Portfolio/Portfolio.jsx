@@ -12,7 +12,7 @@ const Portfolio = () => {
   console.log(data);
   return (
     <div className="bg-light p-5">
-      <div className="container">
+      <div className="container " id="projects">
         <Headings>Projects</Headings>
         <div className="row">
           {data.map((projects) => (

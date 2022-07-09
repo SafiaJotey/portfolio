@@ -53,7 +53,7 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div className="container-md ">
+      <div className="container-md " id="home">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-12 col-md-6 py-5">
             <h3 className="text-light fs-4">Hi There, </h3>
@@ -77,7 +77,10 @@ const Banner = () => {
                 />
               </span>
             </h3>
-            <div className="d-flex justify-content-start align-items-center my-5">
+            <div
+              className="d-flex
+             justify-content-start align-items-center my-5"
+            >
               <Button>
                 <a
                   className="text-decoration-none text-light"
@@ -86,14 +89,16 @@ const Banner = () => {
                   rel="noreferrer"
                 >
                   <HiDownload className=" text-light me-1 fs-6"></HiDownload>
-                  Download Resume
+                  Resume
                 </a>
               </Button>
 
-              <button className="border  border-1 border-secondary bg-transparent   py-2 shadow shadow-secondary shadow-intensity-lg rounded-1 px-3  mx-2 text-secondary">
-                <AiFillPhone className="text-secondary me-1 fs-6"></AiFillPhone>
-                Contact me
-              </button>
+              <a href="#contact">
+                <button className="border  border-1 border-secondary bg-transparent   py-2 shadow shadow-secondary shadow-intensity-lg rounded-1 px-3  mx-2 text-secondary">
+                  <AiFillPhone className="text-secondary me-1 fs-6"></AiFillPhone>
+                  Contact
+                </button>
+              </a>
             </div>
           </div>
           <div class="col-12 col-md-5 pe-none ">

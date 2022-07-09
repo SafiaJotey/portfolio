@@ -12,7 +12,7 @@ const Skills = () => {
 
   return (
     <div className="bg-white p-5">
-      <div className="container my-5 ">
+      <div className="container my-5 " id="skills">
         <Headings>My Skills</Headings>
         {data.map((d) => (
           <SkillSet d={d}></SkillSet>

@@ -1,14 +1,17 @@
+import { motion } from 'framer-motion';
 import { BsArrowUpRight } from 'react-icons/bs';
 import './Portfolio.css';
 
 const Project = ({ project }) => {
   console.log(project);
   return (
-    <div className="col-md-3  ">
+    <motion.div
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
+      className="col-md-4  "
+    >
       <div className="image-wrap px-3">
-        <a href={project.livesite} target="_blank" rel="noopener noreferrer">
-          <img src={project.image} alt="webpage" />
-        </a>
+        <img src={project.image} alt="webpage" />
       </div>
 
       <a
@@ -19,7 +22,7 @@ const Project = ({ project }) => {
       >
         Visit Livesite <BsArrowUpRight></BsArrowUpRight>
       </a>
-    </div>
+    </motion.div>
   );
 };
 

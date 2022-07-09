@@ -15,16 +15,16 @@ const Header = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto my-auto">
-            <Nav.Link href="#home" className="text-light mx-2">
+            <Nav.Link href="#about" className="text-light mx-2">
               About
             </Nav.Link>
-            <Nav.Link href="#link" className="text-light mx-2">
+            <Nav.Link href="#skills" className="text-light mx-2">
               Skills
             </Nav.Link>
-            <Nav.Link href="#link" className="text-light mx-2">
+            <Nav.Link href="#projects" className="text-light mx-2">
               My Projects
             </Nav.Link>
-            <Nav.Link href="#link" className="text-light mx-2">
+            <Nav.Link href="#contact" className="text-light mx-2">
               Contect Me
             </Nav.Link>
           </Nav>
