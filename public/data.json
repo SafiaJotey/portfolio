@@ -33,6 +33,10 @@
   {
     "Fimilier": [
       {
+        "name": "Redux",
+        "image": "https://i.ibb.co/0cHTcpy/icons8-redux-50.png"
+      },
+      {
         "name": "TypeScript",
         "image": "https://i.ibb.co/rFMYccF/icons8-typescript-50.png"
       },
