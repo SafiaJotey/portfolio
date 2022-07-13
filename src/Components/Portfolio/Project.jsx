@@ -12,7 +12,7 @@ const Project = ({ project }) => {
       className="col-md-4  p-2"
     >
       <div className="bg-white p-2 shadow-sm rounded">
-        <div className="image-wrap ">
+        <div className="image-wrap w-75 ">
           <img className="img-fluid w-100" src={project.image} alt="webpage" />
         </div>
 

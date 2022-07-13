@@ -20,12 +20,13 @@
       },
 
       {
-        "image": "   https://i.ibb.co/Czt23Zn/Safia-Ahmed.png",
-        "livesite": "https://safiaahmed.netlify.app/"
-      },
-      {
         "image": "https://i.ibb.co/XpsrjZ5/Medicare-1.png",
         "livesite": "https://medicare2-9be9a.web.app/"
+      },
+
+      {
+        "image": "   https://i.ibb.co/Czt23Zn/Safia-Ahmed.png",
+        "livesite": "https://safiaahmed.netlify.app/"
       }
     ]
   }
